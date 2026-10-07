@@ -1,0 +1,37 @@
+{
+  "city": "Delhi",
+  "days": 2009,
+  "test_days": 60,
+  "horizon": 30,
+  "adf": {
+    "adf_statistic": -2.322,
+    "p_value": 0.165,
+    "stationary": false
+  },
+  "metrics": {
+    "naive": {
+      "MAE": 35.84,
+      "RMSE": 51.82,
+      "MAPE_%": 49.49,
+      "R2": -0.917
+    },
+    "prophet": {
+      "MAE": 30.43,
+      "RMSE": 38.72,
+      "MAPE_%": 92.41,
+      "R2": -0.071
+    },
+    "lstm": {
+      "MAE": 37.01,
+      "RMSE": 43.2,
+      "MAPE_%": 157.51,
+      "R2": -0.332
+    },
+    "lstm_1step": {
+      "MAE": 35.81,
+      "RMSE": 41.72,
+      "MAPE_%": 150.62,
+      "R2": -0.243
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "city": "Mumbai",
+  "days": 2009,
+  "test_days": 60,
+  "horizon": 30,
+  "adf": {
+    "adf_statistic": -3.988,
+    "p_value": 0.0015,
+    "stationary": true
+  },
+  "metrics": {
+    "naive": {
+      "MAE": 19.36,
+      "RMSE": 23.37,
+      "MAPE_%": 49.4,
+      "R2": -0.472
+    },
+    "prophet": {
+      "MAE": 15.11,
+      "RMSE": 18.07,
+      "MAPE_%": 31.39,
+      "R2": 0.12
+    },
+    "lstm": {
+      "MAE": 18.33,
+      "RMSE": 23.49,
+      "MAPE_%": 30.6,
+      "R2": -0.486
+    },
+    "lstm_1step": {
+      "MAE": 17.94,
+      "RMSE": 22.7,
+      "MAPE_%": 31.07,
+      "R2": -0.389
+    }
+  }
+}

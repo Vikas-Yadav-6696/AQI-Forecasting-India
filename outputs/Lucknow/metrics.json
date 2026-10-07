@@ -1,0 +1,37 @@
+{
+  "city": "Lucknow",
+  "days": 2009,
+  "test_days": 60,
+  "horizon": 30,
+  "adf": {
+    "adf_statistic": -3.32,
+    "p_value": 0.014,
+    "stationary": true
+  },
+  "metrics": {
+    "naive": {
+      "MAE": 29.7,
+      "RMSE": 34.22,
+      "MAPE_%": 124.19,
+      "R2": -0.266
+    },
+    "prophet": {
+      "MAE": 26.42,
+      "RMSE": 32.21,
+      "MAPE_%": 99.0,
+      "R2": -0.122
+    },
+    "lstm": {
+      "MAE": 26.36,
+      "RMSE": 31.11,
+      "MAPE_%": 101.48,
+      "R2": -0.046
+    },
+    "lstm_1step": {
+      "MAE": 26.33,
+      "RMSE": 31.09,
+      "MAPE_%": 100.8,
+      "R2": -0.045
+    }
+  }
+}
