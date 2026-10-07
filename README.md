@@ -681,7 +681,7 @@ Future versions could include:
 **Project Category:** Big Data / Data Science / Artificial Intelligence  
 **Program:** Master of Computer Applications — Data Science & Artificial Intelligence  
 **Project Type:** Academic Group Project  
-**Group:** BIG DATA — Group G3
+**Group:** AI — Group G2
 
 ---
 
