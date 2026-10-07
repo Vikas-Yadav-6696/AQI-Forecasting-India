@@ -697,9 +697,9 @@ Additional group members can be added here:
 
 ```text
 1. Vikas Yadav
-2. [Member Name]
-3. [Member Name]
-4. [Member Name]
+2. Vartika Gupta
+3. Ashwini Kumar Singh
+4. Anshuman Yadav
 ```
 
 ---
